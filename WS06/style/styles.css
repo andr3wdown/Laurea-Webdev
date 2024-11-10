@@ -74,7 +74,8 @@ section, article{
     float: left;
     justify-content: space-between;
     width: 30%;
-    height: auto;
+    height: 100%;
+    min-height: 300px;
     box-sizing: border-box;
     padding: 10px;
 }
