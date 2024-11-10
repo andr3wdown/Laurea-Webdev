@@ -30,12 +30,13 @@ a{
 #nav a{
     margin-block: 5px;
     margin-inline: 10px;
-    border-radius: 10px;
+    border-radius: 1px;
     background-color: rgb(84, 86, 131);
 }
 #nav a:hover{
     color: rgb(255, 0, 0);
     background-color: rgb(52, 54, 90);
+    border-radius: 10px;
 }
 #vertical-nav{
     background-color: rgb(52, 54, 90);
@@ -51,11 +52,12 @@ a{
     display: block;
     height: auto;
     max-height: 50px;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 #vertical-nav a:hover{
     color: black;
     background-color: rgb(84, 86, 131);
+    border-radius: 10px;
 
 }
 section, article{
