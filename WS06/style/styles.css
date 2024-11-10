@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    background-color: rgb(107, 153, 153);
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#nav{
+    
+    background-color: rgb(29, 65, 42);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav a{
+    transition: 0.3s all;
+    border-radius: 10px;
+}
+#nav a:hover{
+    color: black;
+    background-color: rgb(119, 119, 119);
+}
+#vertical-nav a{
+    display: block;;
+}
+section, article{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#section{
+    background-color: rgb(80, 74, 136);
+}
+#article{
+    background-color: rgb(91, 42, 131);
+}
+#aside{
+    background-color: rgb(126, 40, 44);
+    float: right;
+    justify-content: space-between;
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#vertical-nav{
+    background-color: rgb(71, 74, 121);
+    padding: 10px;
+    float: left;
+    width: 30%;
+    height: 300px;
+    box-sizing: border-box;
+
+}
+main{
+    width: 100%;
+}
+
+#footer{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(156, 167, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
