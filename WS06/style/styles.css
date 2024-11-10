@@ -7,11 +7,15 @@ body{
 }
 #header{
     background-color: rgb(107, 153, 153);
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
 }
 a{
     color: white;
     text-decoration: none;
     padding: 10px;
+    transition: 0.3s all;
 }
 #nav{
     
@@ -23,19 +27,26 @@ a{
     justify-content: center;
 }
 #nav a{
-    transition: 0.3s all;
+    
     border-radius: 10px;
 }
 #nav a:hover{
-    color: black;
+    color: rgb(255, 0, 0);
     background-color: rgb(119, 119, 119);
 }
 #vertical-nav a{
-    display: block;;
+    display: block;
+    border-radius: 10px;
+}
+#vertical-nav a:hover{
+    color: black;
+    background-color: rgb(119, 119, 119);
+
 }
 section, article{
     float: left;
     width: 70%;
+    height: 100%;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -59,12 +70,13 @@ section, article{
     padding: 10px;
     float: left;
     width: 30%;
-    height: 300px;
+    height: auto;
     box-sizing: border-box;
 
 }
 main{
     width: 100%;
+    height: 100%;
 }
 
 #footer{
