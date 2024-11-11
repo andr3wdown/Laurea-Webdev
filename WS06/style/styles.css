@@ -10,6 +10,13 @@ body{
     height: 100%;
     margin: 0px;
     padding: 10px;
+    display: flex;
+}
+#header a{
+    display: flex;
+}
+#header a h1{
+    align-self: flex-end;
 }
 
 a{
@@ -18,8 +25,7 @@ a{
     padding: 10px;
     transition: 0.3s all;
 }
-#nav{
-    
+#nav{ 
     background-color: rgb(84, 86, 131);
     height: auto;
     text-align: center;
@@ -39,17 +45,16 @@ a{
     border-radius: 10px;
 }
 #vertical-nav{
+    float: left;
     background-color: rgb(52, 54, 90);
     padding: 10px;
-    float: left;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
-   
 }
 #vertical-nav a{
     background-color: rgb(52, 54, 90);
-    display: block;
+    display: flex;
     height: auto;
     max-height: 50px;
     border-radius: 1px;
@@ -61,11 +66,9 @@ a{
 
 }
 section, article{
-    float: left;
-    width: 70%;
-    height: 100%;
     box-sizing: border-box;
     padding: 10px;
+    flex-grow: 1;
 }
 #section{
     background-color: rgb(80, 74, 136);
@@ -74,11 +77,13 @@ section, article{
     background-color: rgb(87, 80, 153);
 }
 #aside{
-    background-color: rgb(52, 54, 90);
     float: left;
+    background-color: rgb(52, 54, 90);
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    height: 100%;
+    height: auto;
     min-height: 300px;
     box-sizing: border-box;
     padding: 10px;
@@ -88,8 +93,9 @@ main{
     min-height: 400px;
     width: 100%;
     height: 100%;
-    
     background-color: rgb(52, 54, 90);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #footer{
@@ -104,4 +110,11 @@ main{
 img{
     width: 225px;
     height: 225px;
+}
+.container{
+    width: 70%;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
