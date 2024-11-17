@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     color: white;
     background-color: rgb(49, 49, 49);
@@ -7,6 +12,7 @@ body{
 }
 #header{
     background-color: rgb(107, 153, 153);
+    text-align: center;
 }
 #nav{
     color: white;
@@ -30,24 +36,18 @@ body{
     background-color: rgb(119, 119, 119);
 }
 
-section, article{
-    float: left;
-    width: 70%;
+#section{
+    background-color: rgb(80, 74, 136);
     box-sizing: border-box;
     padding: 10px;
 }
-#section{
-    background-color: rgb(80, 74, 136);
-}
 #article{
     background-color: rgb(91, 42, 131);
+    box-sizing: border-box;
+    padding: 10px;
 }
 #aside{
     background-color: rgb(126, 40, 44);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 30%;
     height: auto;
     box-sizing: border-box;
@@ -55,7 +55,9 @@ section, article{
 }
 main{
     width: 100%;
-    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 main::after{
     clear: both;
@@ -68,4 +70,12 @@ main::after{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+  
+    display: flex;
+    flex-wrap: wrap;
 }

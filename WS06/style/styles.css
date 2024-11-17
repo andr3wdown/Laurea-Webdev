@@ -71,7 +71,6 @@ a{
 section, article{
     box-sizing: border-box;
     padding: 10px;
-    flex-grow: 1;
 }
 #section{
     background-color: rgb(80, 74, 136);
