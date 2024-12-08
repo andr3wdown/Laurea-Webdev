@@ -58,6 +58,10 @@ th, td{
     animation-timing-function: linear;
     animation: scale-in-anim 1s;
 }
+.modal-scale-in[open] {
+    animation-timing-function: linear;
+    animation: modal-scale-in-anim 0.5s;
+}
 a{
     color: var(--link-color);
     text-decoration: none;
@@ -118,6 +122,20 @@ button{
     50%{
         transform: scale(1, 1);
         opacity: 50%;
+    }
+    100%{
+        transform: scale(1, 1);
+        opacity: 100%;
+    }
+}
+@keyframes modal-scale-in-anim {
+	0% {
+		transform: scale(0, 0);
+        opacity: 0%;
+	}
+    50%{
+        transform: scale(1, 1);
+        opacity: 100%;
     }
     100%{
         transform: scale(1, 1);
