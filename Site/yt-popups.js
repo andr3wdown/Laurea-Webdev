@@ -1,6 +1,7 @@
 const BUTTON_ID = 'popup-button';
 const CLOSE_ID = 'close-button';
 const POPUP_ID = 'modal';
+const CONTAINER_ID = 'video-container';
 
 for(let i = 0; i < 9; i++) {
     let open = document.getElementById(BUTTON_ID + i);
@@ -11,7 +12,7 @@ for(let i = 0; i < 9; i++) {
         popup.showModal();
     });
     close.addEventListener('click', () => {
-        let div = document.getElementById("video-container" + i);
+        let div = document.getElementById(CONTAINER_ID + i);
         let iframe = div.getElementsByTagName("iframe")[0].contentWindow;
         iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
         popup.close();
