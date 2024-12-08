@@ -137,11 +137,12 @@ button{
 }
 
 ::-webkit-scrollbar-thumb:active {
-    background: rgb(37, 55, 85);
+    background: var(--darkest-color);
     border: 1px solid var(--light-color);
 }
 .height-50{
     height: 50px;
+    font-weight: bold;
 }
 @media only screen and (min-width: 850px) {
     .button-img{
