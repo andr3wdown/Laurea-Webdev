@@ -21,13 +21,6 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.footer{
-    
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-
-}
 .caption-top{
     top: 10px;
     height: auto;
