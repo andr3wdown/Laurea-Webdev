@@ -89,6 +89,7 @@ dfn{
     width: 100%;
 }
 .video-frame{
+    transition: all 0.3s;
     width: 800px;
     height: 500px;
     border: 2px solid var(--light-color);
@@ -164,6 +165,9 @@ button{
 .height-50{
     height: 50px;
     font-weight: bold;
+}
+.button-img:hover{
+    cursor: pointer;
 }
 @media only screen and (min-width: 1200px) {
     .video-frame{
