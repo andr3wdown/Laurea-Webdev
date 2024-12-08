@@ -11,7 +11,9 @@ for(let i = 0; i < 9; i++) {
         popup.showModal();
     });
     close.addEventListener('click', () => {
-        
+        let div = document.getElementById("video-container" + i);
+        let iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+        iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
         popup.close();
     });
 }
