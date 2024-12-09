@@ -2,7 +2,7 @@ const BUTTON_ID = 'popup-button';
 const CLOSE_ID = 'close-button';
 const POPUP_ID = 'modal';
 const CONTAINER_ID = 'video-container';
-const NUM_VIDEOS = 9;
+const NUM_VIDEOS = 12;
 
 for(let i = 0; i < NUM_VIDEOS; i++) {
     let open = document.getElementById(BUTTON_ID + i);
