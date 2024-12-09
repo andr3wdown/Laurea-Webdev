@@ -220,6 +220,11 @@ button{
     }
 }
 @media only screen and (max-width: 850px) {
+    .soundboard-button{
+        width: 100px;
+        height: 100px;
+    }
+    }
     .video-frame{
         width: 480px;
         height: 320px;
