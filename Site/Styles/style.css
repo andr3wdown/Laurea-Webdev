@@ -1,7 +1,9 @@
 :root{
     --light-color: #f1f1f1;
+    --middle-color: rgb(91, 124, 180);
     --dark-color: rgb(56, 80, 121);
     --darkest-color: rgb(37, 55, 85);
+    --content-bg-color: rgb(33, 46, 66);
     --link-color: orangered;
     --link-hover-color: darkred;
     --definiton-color: lightblue;
@@ -84,6 +86,9 @@ dfn{
 .rounded{
     border-radius: 25px;
 }
+.rounded-heavy{
+    border-radius: 50px;
+}
 .video-sizing{
     display: flex;
     height: 100%;
@@ -108,10 +113,33 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 button{
-    background-color: var(--darker-color);
+    background-color: var(--darkest-color);
     color: var(--light-color);
     border: 1px solid var(--light-color);
     transition: all 0.3s;
+}
+.soundboard-button{
+    background-color: var(--darkest-color);
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+    transition: all 0.2s;
+    width: 130px;
+    height: 130px;
+}
+.soundboard-button:hover{
+    background-color: var(--dark-color);
+    color: var(--dark-color);
+    transition: all 0.2s;
+    scale: 1.05;
+}
+.soundboard-button:active{
+    background-color: var(--content-bg-color);
+    color: var(--light-color);
+    transition: all 0.2s;
+    scale: 0.9;
+}
+.bg-darker{
+    background-color: var(--content-bg-color);
 }
 @keyframes fade-in-anim {
     0%   {opacity: 0%;}

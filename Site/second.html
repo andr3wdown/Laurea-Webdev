@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="Scripts/soundboard.js"></script>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="icon" type="image/x-icon" href="Img/favicon.ico">
     <title>Pekora Fan Page - Soundboard</title>
@@ -52,15 +53,123 @@
             </div>
         </div>
     </nav>
-    <div class="container text-light min-height">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center mt-5">Welcome to my page</h1>
+    <div class="container-fluid text-light min-height bg-darker justify-content-center">
+        <div class="container justify-content-center center">
+            <div class="row">
+                <div class="col-12 fade-in">
+                    <h1 class="text-center mt-2">Pekora Soundboard</h1>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit
+            <div class="row col-10 center justify-content-center mt-4">
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekoraorreh.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>ORRREH!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekolaugh.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Pekolaugh</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekolaugh2.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Pekolaugh 2</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekopeko.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>PekoPeko</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekopeko2.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>PekoPeko 2</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/peko-konpeko.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Konpeko</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-its-a-me-pekora.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>It's me Pekora</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-pardun.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Pardun</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-wow.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Waow</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/peko-shaddup-beach.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Shut up beach</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/peko_yes.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Yes</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekonyahhalo.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Nyahhalo</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-cringing.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Pekora cringing</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-dzien-dobry.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Dzien dobry</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-fuzakenna.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Fuzakenna</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-hey-moona.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>HEY MOONA!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekoraohnojesus.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Oh no Jesus</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-ksgk.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Kusogaki ga</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-oh-my-god.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>OH MY GOD</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-says-oh-no.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>OH NO</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-son-of-a-bxxxh.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Son of a beach</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekora-sorrysorry.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Sorry sorry</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekoractm.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Conchatumadre</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekoradespair.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Despair</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekorahoreeshiit.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Holy sheet</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekorahoreeshiit2.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Holy sheet 2</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-flex justify-content-center flex-column text-center scale-in">
+                    <button onclick="PlayAudio('Audio/pekorano.mp3')" class="soundboard-button rounded-circle center"></button>
+                    <p>Sad no</p>
+                </div>
+                
             </div>
         </div>
     </div>
