@@ -117,6 +117,13 @@ button{
     color: var(--light-color);
     border: 1px solid var(--light-color);
     transition: all 0.3s;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: all 0.3s;
+    border-radius: 5px;
 }
 .soundboard-button{
     background-color: var(--darkest-color);
@@ -138,6 +145,7 @@ button{
     transition: all 0.2s;
     scale: 0.9;
 }
+
 .bg-darker{
     background-color: var(--content-bg-color);
 }
@@ -237,6 +245,9 @@ button{
     }
     .carousel-caption h5{
         transition: all 0.5s;
-        font-size: 16px;
+        font-size: 13px;
     }
+}
+.anim{
+    transition: all 0.3s;
 }
