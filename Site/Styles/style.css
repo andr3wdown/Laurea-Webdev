@@ -2,7 +2,7 @@
     --light-color: #f1f1f1;
     --middle-color: rgb(91, 124, 180);
     --dark-color: rgb(56, 80, 121);
-    --darkest-color: rgb(37, 55, 85);
+    --darkest-color: #253755;
     --content-bg-color: rgb(33, 46, 66);
     --link-color: orangered;
     --link-hover-color: darkred;
@@ -10,6 +10,7 @@
     --definiton-hover-color: rgb(93, 163, 187);
     --line-color: #667897;
     --slide-button-color: #f1f1f11a;
+    
 }
 
 body{
@@ -154,6 +155,10 @@ button:hover{
 .bg-darker{
     background-color: var(--content-bg-color);
 }
+.music-card{
+    background-color: var(--darkest-color);
+    transition: all 0.3s;
+}
 @keyframes fade-in-anim {
     0%   {opacity: 0%;}
 }
@@ -206,6 +211,9 @@ button:hover{
 }
 .height-50{
     height: 50px;
+    font-weight: bold;
+}
+.text-bold{
     font-weight: bold;
 }
 .button-img:hover{
