@@ -142,13 +142,13 @@ button:hover{
     background-color: var(--dark-color);
     color: var(--dark-color);
     transition: all 0.2s;
-    scale: 1.05;
+    transform: scale(1.05, 1.05);
 }
 .soundboard-button:active{
     background-color: var(--content-bg-color);
     color: var(--light-color);
     transition: all 0.2s;
-    scale: 0.9;
+    transform: scale(0.9, 0.9);
 }
 
 .bg-darker{
