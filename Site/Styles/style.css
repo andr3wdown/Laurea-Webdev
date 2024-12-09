@@ -219,7 +219,13 @@ button:hover{
 .button-img:hover{
     cursor: pointer;
 }
+.music-video{
+
+    width: 75%;
+    aspect-ratio: 16/9;
+}
 @media only screen and (min-width: 1200px) {
+    
     .video-frame{
         width: 1100px;
         height: 619px;
@@ -241,6 +247,9 @@ button:hover{
     }
 }
 @media only screen and (max-width: 850px) {
+    .music-video{
+        width: 100%;
+    }
     .soundboard-button{
         width: 100px;
         height: 100px;
